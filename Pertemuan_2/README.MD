@@ -20,4 +20,4 @@ Pada pertemuan 2, Mahasiswa/i diajarkan bagaimana cara memasukkan data ke databa
 13. Arahkan kursor pada **●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●**, klik **Show**.
 14. Salin **Secret** sebagai `FIREBASE_AUTH`.
 
-[< Kembali](../)
+[< Kembali](https://github.com/Irvan789/Sistem-Embeded)
