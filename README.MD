@@ -7,6 +7,6 @@ Kode yang terdapat pada repository ini hanya digunakan untuk kebutuhan pembelaja
 - [CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 
 # Daftar Isi
-- [Pertemuan 1](Pertemuan_1/README.MD)
-- [Pertemuan 2](Pertemuan_2/README.MD)
+- [Pertemuan 1](./Pertemuan_1/)
+- [Pertemuan 2](./Pertemuan_2/)
 - Pertemuan 3 (15/03 15:00~17:30 WIB)
