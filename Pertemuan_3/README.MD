@@ -8,10 +8,11 @@ Pada pertemuan 3 & 4, mahasiswa/i diajarkan menggunakan SPI TFT Module ILI9488 d
 - Install terlebih dahulu library **TFT eSPI**.
 - Buka **File Explorer** > **Documents** > **Arduino** > **libraries** > **TFT_eSPI**.
 - Edit file **User_Setup.h**.
-- Comment line 45 dan uncomment line 54.
+- Comment line 45
+- Uncomment line 54.
 - Comment line 169~171.
 - Uncomment line 206~211.
-- Save file tersebut.
+- Simpan file tersebut.
 
 # Konfigurasi PIN 
 | TFT SPI    | ESP32  |
