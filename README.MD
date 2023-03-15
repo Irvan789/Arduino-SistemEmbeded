@@ -9,4 +9,4 @@ Kode yang terdapat pada repository ini hanya digunakan untuk kebutuhan pembelaja
 # Daftar Isi
 - [Pertemuan 1](./Pertemuan_1/)
 - [Pertemuan 2](./Pertemuan_2/)
-- Pertemuan 3 (15/03 15:00~17:30 WIB)
+- [Pertemuan 3](./Pertemuan_3/)
