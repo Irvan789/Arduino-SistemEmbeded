@@ -5,7 +5,7 @@ Pada pertemuan 4, mahasiswa/i di ajarkan bagaimana cara mendapatkan data dari su
 - Firebase ESP32 Client
 
 # Konfigurasi Firebase
-Lihat [disini](../Pertemuan_2/README.MD).
+Lihat [disini](../Pertemuan_2).
 
 # Struktur data
 Pada firebase realtime database, data di simpan dalam bentuk [JSON](https://www.json.org/json-en.html). Dalam percobaan kali ini menggunakan struktur data sebagai berikut:
@@ -20,3 +20,5 @@ Pada firebase realtime database, data di simpan dalam bentuk [JSON](https://www.
   }
 }
 ```
+
+[< Kembali](../)
