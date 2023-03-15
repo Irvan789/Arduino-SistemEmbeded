@@ -7,8 +7,14 @@
 #define WiFi_SSID "YOUR_WIFI_SSID"
 #define WiFi_PASS "YOUR_WIFI_PASS"
 
+int TRG_PIN = 27;
+int ECH_PIN = 26;
+
 FirebaseData fData;
-FirebaseJson fJson;
+FirebaseJson fJson1;
+FirebaseJson fJson2;
+
+int pulse, cm;
 
 void setup()
 {
@@ -31,14 +37,27 @@ void setup()
   Firebase.setwriteSizeLimit(fData, "tiny");
   Serial.println("-----------------------");
   Serial.println("Connected!");
+
+  pinMode(TRG_PIN, OUTPUT);
+  pinMode(ECH_PIN, INPUT);
 }
 
 void loop()
 {
-  String data = "Nama Kamu (NIM)";
-  Serial.println(data);
+  digitalWrite(TRG_PIN, LOW);
+  delayMicroseconds(100);
+  digitalWrite(TRG_PIN, HIGH);
+  delayMicroseconds(100);
+  digitalWrite(TRG_PIN, LOW);
+  pulse = pulseIn(ECH_PIN, HIGH);
+  cm = pulse * 0.034 / 2;
+
   delay(1000);
 
-  fJson.set("/No Absen", data);
-  Firebase.updateNode(fData, "/JSON Name", fJson);
+  fJson1.set("/nama", "Nama Kamu");
+  Firebase.updateNode(fData, "/JSON Name/No Absen", fJson1);
+  fJson2.set("/nama", "Nama Sensor");
+  fJson2.set("/value", cm);
+  Firebase.updateNode(fData, "/JSON Name/No Absen/sensor", fJson2);
+  Serial.print("Update Success!");
 }

@@ -1,5 +1,5 @@
 # Tentang
-Pada pertemuan 3 & 4, mahasiswa/i diajarkan menggunakan SPI TFT Module ILI9488 dengan ESP32.
+Pada pertemuan 3, mahasiswa/i diajarkan menggunakan SPI TFT Module ILI9488 dengan ESP32.
 
 # Required Library
 - [TFT eSPI](https://github.com/Bodmer/TFT_eSPI)
