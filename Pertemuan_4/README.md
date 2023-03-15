@@ -21,4 +21,4 @@ Pada firebase realtime database, data di simpan dalam bentuk [JSON](https://www.
 }
 ```
 
-[< Kembali](../)
+[< Kembali](../.)
