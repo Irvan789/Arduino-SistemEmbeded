@@ -12,13 +12,13 @@ Pada firebase realtime database, data di simpan dalam bentuk [JSON](https://www.
 ```javascript
 {
   "No Absen": {
-    "Nama": "Nama Kamu",
-    "Sensor": {
-      "Nama": "Nama Sensor",
-      "Value": "Value Sensor"
+    "name": "Nama Kamu",
+    "sensor": {
+      "name": "Nama Sensor",
+      "value": "Value Sensor"
     }
   }
 }
 ```
 
-[< Kembali](../.)
+[< Kembali](https://github.com/Irvan789/Sistem-Embeded)
