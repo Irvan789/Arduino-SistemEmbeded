@@ -19,12 +19,12 @@ Menampilkan Text pada SPI TFT Module ILI9488.
 
 # Konfigurasi TFT eSPI
 - Install terlebih dahulu library **TFT eSPI**.
-- Buka **File Explorer** > **Documents** > **Arduino** > **libraries** > **TFT_eSPI by Bodmer**.
+- Buka **File Explorer** > **This PC** > **Documents** > **Arduino** > **libraries** > **TFT_eSPI by Bodmer**.
 - Edit file **User_Setup.h**.
-- Comment line 45.
-- Uncomment line 54.
-- Comment line 169~171.
-- Uncomment line 206~211.
+- Beri garis dua `(//)` di awal pada line 45.
+- Hapus garis dua `(//)` di awal pada line 54.
+- Beri garis dua `(//)` di awal pada line 169 sampai 171.
+- Hapus garis dua `(//)` di awal pada line 206 sampai 211.
 - Simpan file tersebut.
 
 [< Kembali](https://github.com/Irvan789/Sistem-Embeded)
