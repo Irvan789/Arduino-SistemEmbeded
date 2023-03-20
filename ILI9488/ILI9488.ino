@@ -5,6 +5,7 @@ TFT_eSPI tft = TFT_eSPI();
 
 void setup()
 {
+  tft.begin();
   tft.init();
   tft.setRotation(1);
   tft.setTextSize(4);

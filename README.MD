@@ -7,7 +7,7 @@ Kode yang terdapat pada repository ini hanya digunakan untuk kebutuhan pembelaja
 - [CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)
 
 # Daftar Isi
-- [Pertemuan 1](./Pertemuan_1/)
-- [Pertemuan 2](./Pertemuan_2/)
-- [Pertemuan 3](./Pertemuan_3/)
-- [Pertemuan 4](./Pertemuan_4/)
+- [Serial I/O](./Serial_IO/)
+- [Firebase Realtime](./Firebase_Realtime/)
+- [Firebase HC-SO04](./Firebase_HC-SO04/) 
+- [ILI9488](./ILI9488/)

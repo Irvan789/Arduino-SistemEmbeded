@@ -1,5 +1,5 @@
 # Tentang
-Pada pertemuan 4, mahasiswa/i di ajarkan bagaimana cara mendapatkan data dari suatu sensor kemudia mengupload sata tersebut ke Firebase Realtime Database.
+Mengupload data sensor ke Firebase Realtime database.
 
 # Required Library
 - Firebase ESP32 Client

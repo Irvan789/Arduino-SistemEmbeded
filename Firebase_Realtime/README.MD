@@ -1,5 +1,5 @@
 # Tentang
-Pada pertemuan 2, Mahasiswa/i diajarkan bagaimana cara memasukkan data ke database dengan menggunakan [Firebase](https://firebase.google.com).
+Dasar menggunakan Firebase Realtime database.
 
 # Required Library
 - Firebase ESP32 Client
